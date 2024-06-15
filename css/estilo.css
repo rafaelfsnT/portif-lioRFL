@@ -9,9 +9,16 @@
     font-family: "Poppins", sans-serif;
     background-color:  #131313;
 }
-
-.home h1{
+/* DIV home */
+.home h1 {
     text-align: center;
+    margin: 40px;
     color: aliceblue;
-    padding: 50px;
+}
+.home h2 {
+    color: aliceblue;
+    text-align: center;
+}
+.home a{
+    color: aliceblue;
 }
