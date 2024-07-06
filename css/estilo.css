@@ -14,33 +14,32 @@
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
 }
-
-.col {
-    flex: 1;
-}  .navbar {
+ 
+.navbar img {
+    padding: 10px auto;
+    max-width: 150px;
+}
+  .navbar {
     height: 80px;
     width: 100%;
 }
-.navbar a {
+.link a{
     color: #7F00FF;
-    font-size: 25px;
+    font-size: 20px;
+    border: 2px solid;
     border-radius: 30px;
     padding: 5px 20px;
     margin-right: 30px;
     text-decoration: none;
     transition: 0.4s;
 }
-.navbar a:hover {
+.link a:hover {
     color: aliceblue;
-    font-size: 28px;
-}
-.navbar img {
-    padding: 10px auto;
-    max-width: 150px;
-    border: none; 
+    font-size: 23px;
+    border-color: #7F00FF;
 }
 .avatar {
     width: 180px; 
@@ -59,11 +58,10 @@
 /* DIV home */
 .home {
     text-align: center;
-    padding: 40px;
+    padding-top: 250px;
 }
 
 .home h1 {
-    font-size: 2.5rem;
     color: #7F00FF;
 
 }
@@ -79,16 +77,27 @@
     height: 1.5em;
     line-height: 1.5em;
 
-}
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #7F00FF }
+} .icons {
+    text-align: center;
+    padding: 20px;
 }
 
-.icons {
-    margin-top: 15px;
-    text-decoration: none;
+.navbar-link {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
+
+.navbar-link .nav-link {
+    margin: 0 15px;
+    font-size: 2em; 
+    color: aliceblue;
+    transition: 0.5s;
+}
+.navbar-link .nav-link:hover {
+   color: #7F00FF;
+}
+
 .icons a{
     color: #7F00FF;
     font-size: 3em;
@@ -102,10 +111,11 @@
 .icons a:last-child {
     margin-right: 0;
 }
-
 /* DIV SOBRE */
-.sobre {
-    padding: 30px;
+.sobre{
+    padding-top: 450px;
+    color: #7F00FF;
+
 }
 .sobre h1{
     color: #7F00FF;
